@@ -1,0 +1,21 @@
+escape ^Oo 
+#caption always "%n(%t) : %C"
+#caption always "%3n %t%? @%u%?%? [%h]%?%=%c"
+#caption always "%{= kw}%?%-Lw%?%{+b kw}%n*%t%f %?(%u)%?%{= kw}%?%+Lw%?"
+#shelltitle ''
+hardstatus             alwayslastline  
+hardstatus string '%{= kG}[ %{G}%H %{g}][%= %{= kw}%?%-Lw%?%{r}(%{W}%n*%f%t%?(%u)%?%{r})%{w}%?%+Lw%?%?%= %{g}][%{B} %d/%m %{W}%c %{g}]'
+#hardstatus alwayslastline "%-Lw%{= BW}%50>%n%f* %t%{-}%+Lw%< %=%D %M %d %c"
+
+
+defscrollback 70000
+startup_message off
+hardstatus on
+hardstatus alwayslastline
+
+
+shelltitle "$ |bash"
+
+#screen -t browse 
+#screen -t editor
+#screen -t compiler
