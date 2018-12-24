@@ -129,4 +129,4 @@ git_prompt() {
 PS1='\u@\h:\w $(git_prompt)\[\033[00m\]\$ '
 
 export PATH="/home/ubuntu/miniconda3/bin:$PATH"
-alias config='/usr/bin/git --git-dir=/Users/pkerpedjiev/.cfg/ --work-tree=/Users/pkerpedjiev'
+alias config='/usr/bin/git --git-dir=/Users/pete/.cfg/ --work-tree=/Users/pete'
